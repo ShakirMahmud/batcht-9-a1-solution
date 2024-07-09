@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,27 +10,27 @@
 body {
     font-family: "Merriweather", serif;
 }
+
 /* shared styles */
-.text-center{
+.text-center {
     text-align: center;
 }
 
 /* banner section style starts here */
 .banner-container {
-    /* Rectangle 15 */
-    border: 2px solid red;
     margin: 0 auto;
-    width: 1320px;
+    max-width: 1320px;
     min-height: 600px;
     margin-top: 20px;
     border-radius: 16px;
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
 }
+
 .banner-content {
     display: flex;
     flex-direction: column;
@@ -37,16 +38,129 @@ body {
     align-items: center;
     height: 600px;
 }
-.banner-content h1,
-p {
-    color: white;
-}
 
 .banner-content p {
+    color: white;
     font-size: 32px;
     font-weight: 400px;
 }
-.banner-content h1{
+
+.banner-content h1 {
+    color: white;
     font-size: 72px;
     font-weight: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-content>h1 span {
+    text-align: center;
+}
+
+/* 65% section styles starts here   */
+
+.second-section-container {
+    max-width: 802.9px;
+    min-height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+
+.second-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-content>h1 {
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.second-section-content>p {
+    margin-top: 48px;
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.second-section-content>h3 {
+    margin-top: 16px;
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.second-section-content>div>img {
+    margin-top: 48px;
+    margin-bottom: 0;
+    width: 802.9px;
+    height: 500px;
+}
+
+/* welcome section styles starts here  */
+.third-section-container {
+    border: 2px solid red;
+    background-image:linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1320px;
+    min-height: 600px;
+    border-radius: 16px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.third-section-content {    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 600px;
+}
+
+.third-section-content>h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 126px;
+    margin-top: 126px;
+}
+.third-section-content>p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 126px;
+    margin-top: 24px;
+    width: 697px;
+}
+.third-section-content>a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 158px;
+    margin-top: 48px;
+    text-decoration: none;
+
+}
+.third-section-content>a:hover{
+    background-color: blue;
+    /* position: absolute; */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    bottom: -2px; /* Position the underline */
+    left: 0;
+}
+.third-section-image{
+    margin:68.12px 108.67px 67.29px 39.17px;
 }
