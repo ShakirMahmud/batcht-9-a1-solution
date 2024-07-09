@@ -330,3 +330,27 @@ body {
     margin-top: 28px;
 }
 /* <!-- discount section styles starts here  --> */
+.discount-section-container{
+    margin: 0 auto;
+    width: 1320px;
+    height: 662.07px;    
+    display: flex; 
+     justify-content: center;
+    align-items: center;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px;
+} 
+.discount-left-section>img{
+    /* position: absolute; */
+    width: 674.82px;
+    height: 577.96px;
+    margin-right: 60.81px;
+
+}
+.discount-right-section>img{
+    margin: 77px 40.31px 279.38px 177.54px;
+    width: 305.69px;
+    height: 305.69px;
+} 
