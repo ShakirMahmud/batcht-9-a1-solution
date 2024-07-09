@@ -240,46 +240,93 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
-.ellipse-middle-column{
+
+.ellipse-middle-column {
     margin-left: 70px;
     width: 463px;
-height: 463px;
+    height: 463px;
 }
-.ellipse-middle-column-ellipse1{
+
+.ellipse-middle-column-ellipse1 {
     box-sizing: border-box;
-border: 15px solid rgb(255, 0, 0);
-border-radius: 50%;
-width: 463px;
-height: 463px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 49px;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 463px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 49px;
 }
-.ellipse-middle-column-ellipse1>img{
+
+.ellipse-middle-column-ellipse1>img {
     width: 364.84px;
-height: 364.84px;
+    height: 364.84px;
 }
-.ellipse-right-column{
+
+.ellipse-right-column {
     margin-top: 112px;
     margin-left: 118px;
     width: 276px;
-height: 170px;
+    height: 170px;
 }
-.ellipse-right-column>h2{
+
+.ellipse-right-column>h2 {
     color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
-.ellipse-right-column>p{
+
+.ellipse-right-column>p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
 }
-.ellipse-right-column>img{
+
+.ellipse-right-column>img {
     width: 140px;
     height: 140px;
     margin-top: 43px;
 }
+
+/* <!-- holiday section styles starts here  --> */
+.holiday-section-container {
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 1068px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-section-container>h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-section-container>h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-top: 16px;
+}
+
+.holiday-section-container>h1>span {
+    color: red;
+}
+
+.holiday-section-container>p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+/* <!-- discount section styles starts here  --> */
