@@ -58,7 +58,6 @@ body {
 }
 
 /* 65% section styles starts here   */
-
 .second-section-container {
     max-width: 802.9px;
     min-height: 806px;
@@ -106,21 +105,21 @@ body {
 
 /* welcome section styles starts here  */
 .third-section-container {
-    border: 2px solid red;
-    background-image:linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),url('../images/Vectorrr.png');
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 1320px;
     min-height: 600px;
     border-radius: 16px;
+    margin: 0 auto;
     margin-top: 120px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
 }
 
-.third-section-content {    
+.third-section-content {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -135,6 +134,7 @@ body {
     margin-left: 126px;
     margin-top: 126px;
 }
+
 .third-section-content>p {
     color: white;
     font-size: 18px;
@@ -143,7 +143,8 @@ body {
     margin-top: 24px;
     width: 697px;
 }
-.third-section-content>a {
+
+.third-section-content>span {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 20px;
@@ -151,16 +152,56 @@ body {
     margin-left: 158px;
     margin-top: 48px;
     text-decoration: none;
+}
 
+.third-section-image {
+    margin: 68.12px 108.67px 67.29px 39.17px;
 }
-.third-section-content>a:hover{
-    background-color: blue;
-    /* position: absolute; */
-    width: 0;
-    height: 2px; /* Thickness of the underline */
-    bottom: -2px; /* Position the underline */
-    left: 0;
+
+/* <!-- place section styles starts here  --> */
+.place-section-container {
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 482px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.third-section-image{
-    margin:68.12px 108.67px 67.29px 39.17px;
+
+.place-section-content>p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(7, 2, 17);
+    text-align: center;
+    margin: 100px 386px 48px;
 }
+
+.place-section-content>p>span {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    color: red;
+}
+
+.place-section-button button {
+    /* Frame 1 */
+    width: 167px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+/* <!-- ellipse section starts here  --> */
